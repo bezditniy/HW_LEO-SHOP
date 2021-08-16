@@ -2,11 +2,8 @@ body{
     background-image: url(Image/Background@1X.png);
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin-top: 0px;
-    margin-left: 225px;
-    margin-right: 225px;
+    margin: 0px auto;
     width: 1400px;
-    height: 3143px;
 }
 header{
     display: inline-block;
@@ -224,9 +221,9 @@ input::placeholder{
     font-weight: 700;
 }
 .txt2{
-    position: absolute;
-    bottom: 200px;
-    left: 380px;
+    position: relative;
+    bottom: 78px;
+    padding-left: 80px;
     font-size: 1.4em;
     text-transform: uppercase;
     color: #635f57;
@@ -311,9 +308,7 @@ input::placeholder{
     margin-left: 740px;
 }
 .txt3{
-    position: absolute;
-    top: 1770px;
-    left: 380px;
+    padding-left: 80px;
     font-size: 1.4em;
     text-transform: uppercase;
     color: #635f57;
@@ -331,9 +326,7 @@ input::placeholder{
     margin-left: 740px;
 }
 .txt4{
-    position: absolute;
-    top: 2220px;
-    left: 380px;
+    padding-left: 80px;
     font-size: 1.4em;
     text-transform: uppercase;
     color: #635f57;
